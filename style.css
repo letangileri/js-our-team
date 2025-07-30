@@ -6,7 +6,7 @@
   --or-primary: #e53170;
   --or-card-bg: #000000;
   --or-text-color-primary: #171734;
-  --or-text-color-secondary: #d1d5d8;
+  --or-text-color-secondary: white;
   --or-text-color-terzary: #62c1ea;
 
 }
@@ -30,14 +30,32 @@
 
 
 
-/* #region heade*/
-
+/* #region header*/
+#title-team{
+  color: var(--or-primary);
+}
 
 /* #endregion header*/
 
 
 
 /* #region main*/
+#color-custom{
+  background-color: var(--or-card-bg);
+}
+#bg-color-custom {
+  background-color: var(--or-card-bg);
+}
 
+#bg-color-custom h5,#bg-color-custom p:nth-child(2){
+  color: var(--or-text-color-secondary);
+}
+#bg-color-custom h5{
+  text-transform: uppercase;
+}
+
+#bg-color-custom p:nth-child(3){
+  color: var(--or-text-color-terzary);
+}
 
 /* #endregion main*/
