@@ -1,0 +1,43 @@
+/* #region Common */
+:root
+{
+  /* Color Schema inside root element */
+  --or-page-bg: white;
+  --or-primary: #e53170;
+  --or-card-bg: #000000;
+  --or-text-color-primary: #171734;
+  --or-text-color-secondary: #d1d5d8;
+  --or-text-color-terzary: #62c1ea;
+
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #endregion Common */
+
+
+
+/* #region Utility*/
+
+
+/* #endregion Utility*/
+
+
+
+
+/* #region heade*/
+
+
+/* #endregion header*/
+
+
+
+/* #region main*/
+
+
+/* #endregion main*/
