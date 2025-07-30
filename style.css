@@ -42,9 +42,14 @@
 /* #region main*/
 #color-custom{
   background-color: var(--or-card-bg);
+
 }
 #bg-color-custom {
   background-color: var(--or-card-bg);
+}
+.card{
+  max-width: 500px;
+
 }
 
 #bg-color-custom h5,#bg-color-custom p:nth-child(2){

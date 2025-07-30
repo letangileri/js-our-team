@@ -52,14 +52,14 @@ getCard();
 function renderCard (nome, ruolo, email, img){
   return `
 
-            <div class="col-sm-12 col-md-4 col-lg-4 mb-3 mb-sm-0">
+            <div class=" col-md-6 col-lg-4 mb-3 mb-sm-0">
             <div class="card m-2 border-0">
               <div class="row g-0 align-items-center rounded-0" id = "bg-color-custom">
-                <div class="col-md-4">
+                <div class="col-sm-4 col-md-4">
                   <img src="${img}" class="img-fluid rounded-start" alt="foto team">
                 </div>
-                <div class="col-md-8">
-                  <div class="card-body align-self-center" id="bg-color-custom">
+                <div class="col-8 col-sm-8 col-md-8">
+                  <div class="card-body align-self-center pt-0 pb-0" id="bg-color-custom">
                     <h5 class="card-title">${nome}</h5>
                     <p class="card-text">${ruolo}</p>
                     <p class="card-text">${email}</p>
@@ -73,6 +73,23 @@ function renderCard (nome, ruolo, email, img){
 `
 }
 
+
+/* <div class="col-sm-12 col-md-6 col-lg-4 mb-3 mb-sm-0">
+<div class="card m-2 border-0">
+  <div class="row g-0 align-items-center rounded-0" id = "bg-color-custom">
+    <div class="col-sm-4 col-md-4">
+      <img src="${img}" class="img-fluid rounded-start" alt="foto team">
+    </div>
+    <div class="col-sm-8 col-md-8">
+      <div class="card-body align-self-center pt-0 pb-0" id="bg-color-custom">
+        <h5 class="card-title">${nome}</h5>
+        <p class="card-text">${ruolo}</p>
+        <p class="card-text">${email}</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div> */
 // /* <div class="card mb-3">
 //   <div class="row g-0">
 //   <div class="col-md-4">
